@@ -1,7 +1,7 @@
 [alias]
 	c = commit -sS
 	t = tag -sS
-	ch = checkout
+	v = checkout
 	l = log --date=short --pretty=format:'%C(bold yellow)%h %C(bold green)%ad %C(reset)%s %C(bold blue)[%an]%C(bold red)%d' --topo-order
 	ss = status -s
 	s = status
@@ -41,3 +41,7 @@
 	prune = true
 [pull]
 	prune = true
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
