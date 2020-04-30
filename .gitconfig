@@ -11,6 +11,11 @@
 [color]
 	ui = auto
 
+[user]
+	name = Hugo
+	email = git@hugo.gg
+	signingkey = 11922AECD17D329E
+
 [core]
 	attributesfile = ~/.gitattributes
 	excludesfile = ~/.gitignore_global
