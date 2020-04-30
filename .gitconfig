@@ -4,7 +4,7 @@
 	ch = checkout
 	l = log --date=short --pretty=format:'%C(bold yellow)%h %C(bold green)%ad %C(reset)%s %C(bold blue)[%an]%C(bold red)%d' --topo-order
 	ss = status -s
-	s = s
+	s = status
 	b = branch
 	cp = cherry-pick
 

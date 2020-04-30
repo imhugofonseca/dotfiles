@@ -146,3 +146,9 @@
 # alt - p : yabai -m window --toggle sticky;\
 #           yabai -m window --toggle topmost;\
 #           yabai -m window --toggle pip
+
+
+   
+
+# yabai shortcuts
+ctrl + space - c  : yabai -m space --focus 4 
