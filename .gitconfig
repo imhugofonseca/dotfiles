@@ -1,10 +1,11 @@
 [alias]
-	commit = commit -sS
-	tag = tag -sS
-	checkout = checkout
+	c = commit -sS
+	t = tag -sS
+	ch = checkout
 	l = log --date=short --pretty=format:'%C(bold yellow)%h %C(bold green)%ad %C(reset)%s %C(bold blue)[%an]%C(bold red)%d' --topo-order
-	status = status
-	new = branch
+	ss = status -s
+	s = s
+	b = branch
 	cp = cherry-pick
 
 [color]
