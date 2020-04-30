@@ -1,0 +1,37 @@
+[alias]
+	commit = commit -sS
+	tag = tag -sS
+	checkout = checkout
+	l = log --date=short --pretty=format:'%C(bold yellow)%h %C(bold green)%ad %C(reset)%s %C(bold blue)[%an]%C(bold red)%d' --topo-order
+	status = status
+	new = branch
+	cp = cherry-pick
+
+[color]
+	ui = auto
+
+[core]
+	attributesfile = ~/.gitattributes
+	excludesfile = ~/.gitignore_global
+	whitespace = space-before-tab,tab-in-indent,trailing-space
+	editor = vim
+
+[push]
+	default = simple
+
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+
+[diff]
+	compactionHeuristic = true
+
+[diff "color"]
+	old = red strike
+	new = green italic
+
+[fetch]
+	prune = true
+[pull]
+	prune = true
