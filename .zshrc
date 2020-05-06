@@ -44,6 +44,11 @@ fi
 
 
 # kubectl
-source <(kubectl completion bash)
+source <(kubectl completion zsh)
+alias k=kubectl
+complete -F __start_kubectl k
 
+# aws
+autoload bashcompinit && bashcompinit
+complete -C '/usr/local/bin/aws_completer' aws
 
