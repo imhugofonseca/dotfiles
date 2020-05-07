@@ -44,4 +44,8 @@
 [commit]
 	gpgsign = true
 [gpg]
-	program = gpg
+  program = gpg
+
+[url "git@gitlab.com:"]
+  insteadOf = https://gitlab.com/
+
