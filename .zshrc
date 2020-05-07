@@ -29,7 +29,7 @@ source $ZSH/oh-my-zsh.sh
 export LC_ALL=en_US.UTF-8
 export EDITOR="vim"
 export GOSUMDB=off
-
+export GOPROXY=direct
 
 # Alias
 alias zsh="vim ~/.zshrc"
