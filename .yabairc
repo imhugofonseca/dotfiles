@@ -25,23 +25,6 @@ yabai -m config left_padding                 12
 yabai -m config right_padding                12
 yabai -m config window_gap                   06
 
-# Spaces
-yabai -m space 1 --label music
-yabai -m space 2 --label chat
-yabai -m space 3 --label browser
-yabai -m space 4 --label code
-yabai -m space 5 --label terminal
-
-# App rules
-yabai -m rule --add app="^Terminal$" space=5
-yabai -m rule --add app="^Google Chrome$" space=3
-yabai -m rule --add app="^Spotify$" space=1
-yabai -m rule --add app="^TeamSpeak 3$" space=2
-yabai -m rule --add app="^Slack$" space=2
-yabai -m rule --add app="^Discord$" space=2
-yabai -m rule --add app="^Visual Studio Code$" space=4
-yabai -m rule --add app="^Code$" space=4
-yabai -m rule --add app="^Finder$" space=6
 
 
 echo "yabai configuration loaded.."

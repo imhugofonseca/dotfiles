@@ -1,4 +1,4 @@
-*
+/*
 !.zshrc
 !.skhdrc
 !.yabairc
@@ -6,3 +6,4 @@
 !.gitconfig
 !.vimrc
 !com.googlecode.iterm2.plist
+!/.config/git-config-switcher
