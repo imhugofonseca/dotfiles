@@ -1,0 +1,8 @@
+f9 : yabai -m space --focus 1
+f10 : yabai -m space --focus 2
+f11 : yabai -m space --focus 3
+f12 : yabai -m space --focus 4
+
+cmd - pagedown : spotify next
+cmd - delete : spotify prev
+

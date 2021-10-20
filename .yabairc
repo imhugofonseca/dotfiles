@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+yabai -m rule --add app="Visual Studio Code" opacity=0.7
 
 # global settings
 yabai -m config mouse_follows_focus          off
@@ -25,6 +26,17 @@ yabai -m config left_padding                 12
 yabai -m config right_padding                12
 yabai -m config window_gap                   06
 
+# label spaces
+yabai -m space 1 --label trading
+yabai -m space 2 --label spotify
+yabai -m space 3 --label browsing
+yabai -m space 4 --label term
+yabai -m space 5 --label work
+yabai -m space 6 --label empty
+
+
+# windows settings
+yabai -m rule --add app="^System Preferences$" manage=off
 
 
 echo "yabai configuration loaded.."

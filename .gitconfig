@@ -1,0 +1,6 @@
+[commit]
+	gpgsign = true
+[include]
+	path = /Users/hugofonseca/.config/git-config-switcher/hugo.fonseca@luggit.app
+[core]
+	editor = code --wait
