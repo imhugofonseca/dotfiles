@@ -4,6 +4,8 @@
 <dict>
 	<key>AlternateMouseScroll</key>
 	<true/>
+	<key>CloseBookmarksWindowAfterOpening</key>
+	<true/>
 	<key>Command</key>
 	<string></string>
 	<key>Default Bookmark Guid</key>
@@ -856,7 +858,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Title Components</key>
-			<integer>35</integer>
+			<integer>2</integer>
 			<key>Transparency</key>
 			<real>0.26066649132168168</real>
 			<key>Unlimited Scrollback</key>

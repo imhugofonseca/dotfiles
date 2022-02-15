@@ -1,6 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/sbin:/usr/local/bin:$PATH
 export GPG_TTY=$(tty)
+export PATH="/usr/local/opt/openssl/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -61,10 +62,8 @@ alias log="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset 
 export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
 
 # PYEnv
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-  eval "$(pyenv virtualenv-init -)"
-fi
+eval "$(pyenv init --path)"
+
 
 
 # kubectl
